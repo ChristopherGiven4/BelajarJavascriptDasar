@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Javascript</title>
+
+    <script type="text/javascript">
+      document.write("<h1>Hello World</h1>");
+      document.write("<h2 style='color:red';>Javascript</h2>");
+
+      var a = "Universitas MDP";
+      var b = 20;
+      document.write("A = " + a + "<br>");
+      document.write("B = " + b);
+
+      console.log("Nilai A = " + a);
+      console.log(typeof a);
+
+      //Operator Aritmatika
+      document.write("<br>")
+      var i = 10;
+      var j = 50;
+      document.write("i + j =" + (i + j) + "<br>");
+      document.write("i % j =" + (i % j) + "<br>");
+      document.write("i++ =" + ++i);
+
+      if(i < j){
+        document.write("<br>i lebih kecil dari j");
+
+      }else{
+        document.write("<br>j lebih kecil dari i");
+      }
+      
+      var color=["blue","red","yellow"];
+      document.write(color[0]+ " "+color[2]);
+
+      for(var i=0; i <=10; i++){
+        console.log("nilai i=" +i);
+      }
+
+    //tampilkan nilai dari array color dengan for
+    for(var i = 0; i < color.length; i++) {
+        document.write("<br><h1 style ='color:" + color[i] + "' > "+ color[i]);
+    }
+       
+
+    </script>
+
+  </head>
+  <body>
+    <h1>Belajar Javascript Dasar</h1>
+  </body>
+</html>
